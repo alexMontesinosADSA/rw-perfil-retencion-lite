@@ -1,0 +1,22 @@
+# Local specs and planning docs
+spec/
+PROMPT-PLAN.md
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# VS Code local state
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Logs
+*.log
+
+# Optional local artifacts
+*.tmp
+*.bak

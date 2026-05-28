@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Consulta Perfil Retencion</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand-wrap">
+      <h1 id="appTitle">Gestion Retencion</h1>
+      <span id="cycleBadge" class="badge neutral">Ciclo: Sin definir</span>
+      <span id="dataBadge" class="badge warning">Sin datos</span>
+    </div>
+    <div class="top-actions">
+      <button id="btnLoadCsv" class="btn">Cargar CSV</button>
+      <button id="btnExportJson" class="btn" disabled>Exportar tags</button>
+      <button id="btnImportJson" class="btn">Importar tags</button>
+      <button id="btnExportCsv" class="btn" disabled>Exportar lista</button>
+      <button id="btnClearTags" class="btn danger" disabled>Limpiar tags</button>
+      <span id="quickSummary" class="badge neutral">0 / 0 tipificados</span>
+    </div>
+    <input id="csvFileInput" type="file" accept=".csv,text/csv" class="hidden" />
+    <input id="jsonFileInput" type="file" accept=".json,application/json" class="hidden" />
+  </header>
+
+  <main class="layout">
+    <section class="filters">
+      <input id="searchInput" type="text" placeholder="Buscar por ID o nombre..." />
+      <div id="riskFilter" class="risk-filter"></div>
+      <select id="actionFilter" multiple size="1"></select>
+      <select id="labelFilter" multiple size="1"></select>
+      <div class="tagged-filter">
+        <label><input type="radio" name="taggedStatus" value="ALL" checked /> Todos</label>
+        <label><input type="radio" name="taggedStatus" value="TAGGED" /> Tipificados</label>
+        <label><input type="radio" name="taggedStatus" value="UNTAGGED" /> Sin tipificar</label>
+      </div>
+      <button id="btnClearFilters" class="btn light">Limpiar filtros</button>
+      <span id="resultCounter" class="result-counter">0 de 0 advertisers</span>
+    </section>
+
+    <section id="filterHint" class="filter-hint hidden">
+      Aplica al menos un filtro para ver resultados.
+    </section>
+
+    <section id="focusToolbar" class="focus-toolbar hidden" aria-live="polite">
+      <span id="focusStatus">Vista normal</span>
+      <button id="btnToggleListPanel" class="btn light" type="button">Mostrar foco</button>
+    </section>
+
+    <section class="table-card">
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nombre</th>
+              <th>Segmento</th>
+              <th>Riesgo</th>
+              <th>Accion</th>
+              <th>Score</th>
+              <th>Tags</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody">
+            <tr><td colspan="7" class="empty">Carga un CSV para ver advertisers.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="pagination">
+        <button id="btnPrevPage" class="btn light">Anterior</button>
+        <span id="pageInfo">Pagina 0 de 0</span>
+        <button id="btnNextPage" class="btn light">Siguiente</button>
+      </div>
+    </section>
+
+    <section class="bottom-panels">
+      <article id="profilePanel" class="panel profile-panel">
+        <p class="empty">Selecciona un advertiser de la lista para ver su perfil.</p>
+      </article>
+      <article id="tagPanel" class="panel tag-panel">
+        <p class="empty">Selecciona un advertiser para tipificar.</p>
+      </article>
+    </section>
+  </main>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="lib/papaparse.min.js"></script>
+  <script src="lib/dayjs.min.js"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

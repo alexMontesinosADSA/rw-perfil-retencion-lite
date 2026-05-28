@@ -1,0 +1,15 @@
+[
+  { "code": "PENDIENTE_CONTACTO", "label": "Pendiente de contacto", "category": "estado", "color": "#8f94a8" },
+  { "code": "CONTACTADO", "label": "Contactado", "category": "estado", "color": "#2c7be5" },
+  { "code": "NO_CONTACTA", "label": "No contesta", "category": "estado", "color": "#f08c2e" },
+  { "code": "NUMERO_INVALIDO", "label": "Numero invalido", "category": "estado", "color": "#e05b5b" },
+  { "code": "INTERESADO", "label": "Interesado en resolver", "category": "resultado", "color": "#2f9e44" },
+  { "code": "SIN_INTERES", "label": "Sin interes", "category": "resultado", "color": "#c92a2a" },
+  { "code": "EN_NEGOCIACION", "label": "En negociacion", "category": "resultado", "color": "#f0b429" },
+  { "code": "ACUERDO_ALCANZADO", "label": "Acuerdo alcanzado", "category": "resultado", "color": "#1e7a36" },
+  { "code": "PLAN_DE_PAGO_ACTIVO", "label": "Plan de pago activo", "category": "resultado", "color": "#3182ce" },
+  { "code": "ESCALADO", "label": "Escalado", "category": "cierre", "color": "#7f5bd6" },
+  { "code": "CERRADO_EXITOSO", "label": "Cerrado exitoso", "category": "cierre", "color": "#256d2b" },
+  { "code": "CERRADO_SIN_RESOLUCION", "label": "Cerrado sin resolucion", "category": "cierre", "color": "#495057" },
+  { "code": "FUERA_DE_UNIVERSO", "label": "Fuera de universo", "category": "cierre", "color": "#6c757d" }
+]
