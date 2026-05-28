@@ -1,0 +1,57 @@
+{
+  "version": "1.0",
+  "cycle_id": "2025-04",
+  "exported_at": "2025-04-30T10:15:00.000Z",
+  "exported_by": "Ana García",
+  "total_tagged": 6,
+  "tags": {
+    "10042": {
+      "advertiser_id": "10042",
+      "cycle_id": "2025-04",
+      "tags": ["CONTACTADO", "INTERESADO", "EN_NEGOCIACION"],
+      "note": "Habló con gerente comercial. Pidió propuesta de plan de pago. Llamar el lunes 5/5.",
+      "tagged_at": "2025-04-30T09:10:00.000Z",
+      "tagged_by": "Ana García"
+    },
+    "10118": {
+      "advertiser_id": "10118",
+      "cycle_id": "2025-04",
+      "tags": ["CONTACTADO", "SIN_INTERES"],
+      "note": "Indicó que no desea renovar. Cerrar en siguiente ciclo.",
+      "tagged_at": "2025-04-30T09:45:00.000Z",
+      "tagged_by": "Ana García"
+    },
+    "10205": {
+      "advertiser_id": "10205",
+      "cycle_id": "2025-04",
+      "tags": ["CONTACTADO", "ACUERDO_ALCANZADO"],
+      "note": "Acordó renovación por 6 meses. Seguimiento con equipo VP.",
+      "tagged_at": "2025-04-29T16:30:00.000Z",
+      "tagged_by": "Carlos Méndez"
+    },
+    "10389": {
+      "advertiser_id": "10389",
+      "cycle_id": "2025-04",
+      "tags": ["NO_CONTACTA"],
+      "note": "3 intentos sin respuesta. Intentar por email.",
+      "tagged_at": "2025-04-30T10:05:00.000Z",
+      "tagged_by": "Ana García"
+    },
+    "10076": {
+      "advertiser_id": "10076",
+      "cycle_id": "2025-04",
+      "tags": ["CONTACTADO", "ESCALADO"],
+      "note": "Queja recurrente. Escalado a gerencia de operaciones.",
+      "tagged_at": "2025-04-29T11:15:00.000Z",
+      "tagged_by": "Carlos Méndez"
+    },
+    "10067": {
+      "advertiser_id": "10067",
+      "cycle_id": "2025-04",
+      "tags": ["PENDIENTE_CONTACTO"],
+      "note": "Asignado a ejecutivo VP. Aún no se realizó el primer contacto.",
+      "tagged_at": "2025-04-30T08:00:00.000Z",
+      "tagged_by": ""
+    }
+  }
+}

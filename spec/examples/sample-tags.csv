@@ -1,0 +1,21 @@
+advertiser_id,advertiser_name,assigned_label_code,assigned_risk_level_code,assigned_action_code,score_total,tags,note,tagged_at,tagged_by
+10042,Empresa Alpha SA,CQ,ALTO,CAC,95,CONTACTADO|INTERESADO|EN_NEGOCIACION,"Habló con gerente. Pidió propuesta de plan de pago. Llamar el lunes 5/5.",2025-04-30T09:10:00.000Z,Ana García
+10118,Empresa Beta SRL,CQ,ALTO,CAC,93,CONTACTADO|SIN_INTERES,Indicó que no desea renovar. Cerrar en siguiente ciclo.,2025-04-30T09:45:00.000Z,Ana García
+10205,Empresa Gamma SA,VP,ALTO,REVISION_ESTRATEGICA,91,CONTACTADO|ACUERDO_ALCANZADO,Acordó renovación por 6 meses. Seguimiento con equipo VP.,2025-04-29T16:30:00.000Z,Carlos Méndez
+10389,Empresa Delta Corp,SP,ALTO,SEND_CAMPAIGN,88,NO_CONTACTA,3 intentos sin respuesta. Intentar por email.,2025-04-30T10:05:00.000Z,Ana García
+10076,Empresa Epsilon Ltda,CQ,ALTO,CAC,86,CONTACTADO|ESCALADO,Queja recurrente. Escalado a gerencia de operaciones.,2025-04-29T11:15:00.000Z,Carlos Méndez
+10067,Empresa Iota SA,VP,ALTO,REVISION_ESTRATEGICA,79,PENDIENTE_CONTACTO,Asignado a ejecutivo VP. Aún no se realizó el primer contacto.,2025-04-30T08:00:00.000Z,
+10511,Empresa Zeta SA,FL,ALTO,SEGUIMIENTO_COMERCIAL,84,,,
+10134,Empresa Eta SRL,SP,ALTO,SEND_CAMPAIGN,82,,,
+10298,Empresa Theta Inc,TA,ALTO,GESTION_OPERATIVA,80,,,
+10422,Empresa Kappa Corp,FL,ALTO,SEGUIMIENTO_COMERCIAL,77,,,
+10091,Empresa Mu SA,CS,MEDIO,MONITOREO_PREVENTIVO,72,,,
+10477,Empresa Nu Ltda,SP,ALTO,SEND_CAMPAIGN,70,,,
+10156,Empresa Xi SA,CS,MEDIO,MONITOREO_PREVENTIVO,68,,,
+10503,Empresa Omicron Corp,FL,ALTO,SEGUIMIENTO_COMERCIAL,66,,,
+10614,Empresa Pi SRL,CS_MEDIO,MEDIO,MONITOREO_PREVENTIVO,18,,,
+10722,Empresa Rho SA,CS_MEDIO,MEDIO,MONITOREO_PREVENTIVO,15,,,
+10801,Empresa Sigma Ltda,CS_BAJO,BAJO,OBSERVACION_ACTIVIDAD,12,,,
+10850,Empresa Tau SA,RB,BAJO,OBSERVACION_NORMAL,45,,,
+10900,Empresa Upsilon Corp,RB,BAJO,OBSERVACION_NORMAL,38,,,
+10999,Empresa Phi SA,INDETERMINADO,,NO_ACTION,,,,

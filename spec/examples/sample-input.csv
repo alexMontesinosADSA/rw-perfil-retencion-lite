@@ -1,0 +1,21 @@
+advertiser_id,advertiser_name,cycle_id,assigned_label_code,assigned_risk_level_code,assigned_action_code,score_total,trigger_reason_code,trigger_reason_detail,has_rezago,sessions_month,open_cases_count,has_digital_campaign,last_contract_date,total_contract_amount
+10042,Empresa Alpha SA,2025-04,CQ,ALTO,CAC,95,CQ_OPEN_ESCALATED,Queja escalada sin resolver,0,14,2,1,2024-08-15,280000
+10118,Empresa Beta SRL,2025-04,CQ,ALTO,CAC,93,CQ_MULTI_CASE,2 quejas activas en el ciclo,0,7,2,0,2024-06-01,195000
+10205,Empresa Gamma SA,2025-04,VP,ALTO,REVISION_ESTRATEGICA,91,VP_WEAR_SIGNAL,Alto valor con señal de desgaste,0,62,1,1,2025-01-10,980000
+10389,Empresa Delta Corp,2025-04,SP,ALTO,SEND_CAMPAIGN,88,SP_OVERDUE_30,Retraso de pago mayor a 30 días,1,0,0,0,2024-09-22,340000
+10076,Empresa Epsilon Ltda,2025-04,CQ,ALTO,CAC,86,CQ_OPEN_CASE,Queja en gestión activa,0,3,1,1,2024-11-05,175000
+10511,Empresa Zeta SA,2025-04,FL,ALTO,SEGUIMIENTO_COMERCIAL,84,FL_LOW_CONVERSION,Baja conversión vs actividad web,0,88,0,1,2024-12-01,450000
+10134,Empresa Eta SRL,2025-04,SP,ALTO,SEND_CAMPAIGN,82,SP_EARLY_SIGNAL,Señal de pago anticipada detectada,1,0,0,0,2024-07-18,220000
+10298,Empresa Theta Inc,2025-04,TA,ALTO,GESTION_OPERATIVA,80,TA_LONG_OPEN_CASE,Case abierto sin resolución mayor a 15 días,0,11,1,0,2024-10-30,315000
+10067,Empresa Iota SA,2025-04,VP,ALTO,REVISION_ESTRATEGICA,79,VP_SILENCE,Score alto con silencio digital reciente,0,4,0,1,2025-02-28,1250000
+10422,Empresa Kappa Corp,2025-04,FL,ALTO,SEGUIMIENTO_COMERCIAL,77,FL_DROP_VISITS,Caída de visitas mayor al 40%,0,31,0,1,2024-11-15,520000
+10091,Empresa Mu SA,2025-04,CS,MEDIO,MONITOREO_PREVENTIVO,72,CS_SILENCE_60D,Sin interacción en 60 días,0,0,0,0,2023-05-12,95000
+10477,Empresa Nu Ltda,2025-04,SP,ALTO,SEND_CAMPAIGN,70,SP_IRREGULAR_CYCLE,Ciclo de pago irregular detectado,1,0,0,0,2024-08-09,180000
+10156,Empresa Xi SA,2025-04,CS,MEDIO,MONITOREO_PREVENTIVO,68,CS_LOW_DIGITAL,Baja actividad digital sostenida,0,5,0,0,2023-09-20,110000
+10503,Empresa Omicron Corp,2025-04,FL,ALTO,SEGUIMIENTO_COMERCIAL,66,FL_NO_LEADS_3M,Sin leads convertidos en más de 3 meses,0,42,0,1,2024-10-01,390000
+10614,Empresa Pi SRL,2025-04,CS_MEDIO,MEDIO,MONITOREO_PREVENTIVO,18,CS_LOW_SCORE,Score menor a 21 con 14 sesiones en contrato 2023,0,14,0,0,2023-03-15,75000
+10722,Empresa Rho SA,2025-04,CS_MEDIO,MEDIO,MONITOREO_PREVENTIVO,15,CS_LOW_SCORE,Score menor a 21 con 8 sesiones en contrato 2022,0,8,0,0,2022-11-20,60000
+10801,Empresa Sigma Ltda,2025-04,CS_BAJO,BAJO,OBSERVACION_ACTIVIDAD,12,CS_LOW_SCORE_ACTIVE,Score menor a 21 con 35 sesiones activas,0,35,0,1,2022-07-10,55000
+10850,Empresa Tau SA,2025-04,RB,BAJO,OBSERVACION_NORMAL,45,RB_NORMAL,Sin señales de riesgo activo,0,22,0,1,2025-01-05,280000
+10900,Empresa Upsilon Corp,2025-04,RB,BAJO,OBSERVACION_NORMAL,38,RB_NORMAL,Sin señales de riesgo activo,0,9,0,0,2024-12-15,190000
+10999,Empresa Phi SA,2025-04,INDETERMINADO,,NO_ACTION,,IND_INCOMPLETE,Señales insuficientes para clasificar,,,,,
