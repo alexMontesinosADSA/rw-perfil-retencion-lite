@@ -33,7 +33,7 @@
     open_cases_count: ['open_cases_count', 'opencasescount', 'open_cases', 'casos'],
     has_digital_campaign: ['has_digital_campaign', 'hasdigitalcampaign', 'flg_digital', 'digital'],
     last_contract_date: ['last_contract_date', 'lastcontractdate', 'fecha_contrato'],
-    total_contract_amount: ['total_contract_amount', 'totalcontractamount', 'monto_contrato', 'monto']
+    total_contract_amount: ['total_contract_amount', 'totalcontractamount', 'contract_amount_total', 'contract_ammount_total', 'monto_contrato', 'monto']
   };
 
   APP_CONFIG.TAG_TAXONOMY = [
